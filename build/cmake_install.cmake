@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/mina/ros_ws/build/gtest/cmake_install.cmake")
+  include("/home/mina/ros_ws/build/ros_tutorials_service/cmake_install.cmake")
   include("/home/mina/ros_ws/build/ros_tutorials_topic/cmake_install.cmake")
 
 endif()

@@ -1,2 +1,2 @@
-ros_tutorials_topic
+ros_tutorials_service:ros_tutorials_topic
 -DCATKIN_DEVEL_PREFIX=/home/mina/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mina/ros_ws/install -G Unix Makefiles
