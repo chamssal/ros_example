@@ -14,7 +14,7 @@ int main(int argc,char**argv)
         msg.stamp = ros::Time::now();
         msg.data = count;
 
-        ROS_INFO("Send msg = %d %d %d",msg.stamp.sec,msg.stamp.nsec,msg.data);
+        ROS_INFO("Send msg = %d %d %d",msg.stamp.sec,msg.stamp.nsec,msg.data); //printf
 
         ros_tutorials_pub.publish(msg);
         loop_rate.sleep();
